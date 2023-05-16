@@ -1,7 +1,7 @@
 <template>
 	<q-layout class="container">
 		<q-header class="header">
-			<nav class="nav"><a href="#">Главная</a> / <a href="#">Профиль пользователя</a></nav>
+			<nav class="nav"><a href="#">Главная</a> / <a href="#">Профиль пользователя Иванов Степан </a></nav>
 			<nav class="nav-mobile"><a href="#">Главная</a> / <a href="#">Личный кабинет</a> / <a href="">Профиль
 					пользователя</a>
 			</nav>
