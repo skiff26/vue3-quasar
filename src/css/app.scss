@@ -1,2 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Roboto:wght@300;400;700&display=swap");
 @import "./profile.scss";
+@import "./you.scss";
+
+.header {
+  background: #fffdfd;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 10px 70px;
+
+  @media (max-width: 768px) {
+    height: 50px;
+    padding: 10px 20px;
+  }
+}
+
+.nav-mobile {
+  display: none;
+  color: #858585;
+  white-space: nowrap;
+
+  a {
+    color: #858585;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
+
+.nav {
+  color: gray;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+
+  a {
+    color: #858585;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
