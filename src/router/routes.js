@@ -10,6 +10,11 @@ const routes = [
     children: [{ path: "", component: () => import("pages/YouPage.vue") }],
   },
   {
+    path: "/about",
+    component: () => import("layouts/MediumLayout.vue"),
+    children: [{ path: "", component: () => import("pages/AboutPage.vue") }],
+  },
+  {
     path: "/:catchAll(.*)*",
     component: () => import("pages/ErrorNotFound.vue"),
   },
