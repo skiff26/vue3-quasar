@@ -22,7 +22,7 @@
 						</div>
 						<div div class=" choose__main">
 							<ExpertSelectCity />
-							<div class="choose__calendar-mob">
+							<div class="choose__calendar-mob" v-if="isMobile">
 								<h3 class="choose__subtitle">Выберите дату</h3>
 								<q-input v-model="date" mask="date" outlined square :rules="['date']">
 									<template v-slot:append>

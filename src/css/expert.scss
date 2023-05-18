@@ -50,7 +50,12 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 120%;
+    margin-top: 60px;
     text-align: center;
+    @media (max-width: 768px) {
+      margin-top: 40px;
+      margin-bottom: 10px;
+    }
     @media (max-width: 470px) {
       text-align: left;
       font-size: 18px;
@@ -186,11 +191,14 @@
       line-height: 100%;
     }
   }
-
-  &__more-mob {
-  }
 }
 
 .bold {
-  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  @media (max-width: 768px) {
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
 }

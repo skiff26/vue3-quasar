@@ -1,6 +1,6 @@
 <template>
 	<div class="choose__experts experts">
-		<h3 class="choose__subtitle bold" style="margin-top: 0px;">Доступные эксперты</h3>
+		<h3 class="choose__subtitle bold">Доступные эксперты</h3>
 		<div class="experts__list" v-if="!isSmall">
 			<div class="experts__item" v-for="expert in experts" :key="expert.name">
 				<div class="experts__left">
