@@ -7,7 +7,7 @@
 	<main class="main">
 		<div class="main__container">
 			<h1 class="main__title text-center text-uppercase">TITLE</h1>
-			<TheDescription />
+			<AboutDescription />
 			<TheAboutArticle :isSmall="isSmall" :isMobile="isMobile" />
 			<TheAboutAdvantage />
 			<TheAboutLinks />
@@ -16,7 +16,7 @@
 </template>
 <script setup>
 import AdBlock from 'src/components/AdBlock.vue';
-import TheDescription from 'src/components/TheDescription.vue';
+import AboutDescription from 'src/components/AboutDescription.vue';
 import TheAboutArticle from 'src/components/TheAboutArticle.vue';
 import TheAboutAdvantage from 'src/components/TheAboutAdvantage.vue';
 import TheAboutLinks from 'src/components/TheAboutLinks.vue';
