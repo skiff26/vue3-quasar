@@ -68,7 +68,7 @@ const isMobile = ref(false)
 
 const onResize = () => {
 	isSmall.value = window.innerWidth < 788
-	isMobile.value = window.innerWidth < 470
+	isMobile.value = window.innerWidth < 490
 }
 
 onMounted(() => {
