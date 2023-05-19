@@ -1,8 +1,9 @@
 <template>
-	<nav class="header">
-		<div class="nav"><a href="#">Главная</a> / <a href="#">Услуги</a> / <a href="#">Заказ экспертизы</a></div>
-		<div class="nav-mobile"><a href="#">Главная</a> / <a href="#">Услуги</a> / <a href="#">Заказ экспертизы</a></div>
-	</nav>
+	<q-breadcrumbs class="header gray" active-color="gray">
+		<q-breadcrumbs-el label="Главная" to="/" />
+		<q-breadcrumbs-el label="Услуги" to="/" />
+		<q-breadcrumbs-el label="Заказ экспертизы" to="/" />
+	</q-breadcrumbs>
 	<main class="order">
 		<div class="order__container">
 			<h1 class="order__title text-uppercase">Заказ Экспертизы</h1>
@@ -10,7 +11,7 @@
 			<OrderAdept :isMobile="isMobile" />
 			<section class="order__form form">
 				<div class="form__container">
-					<h2 class="form__title text-uppercase" v-if="!isMobile">Заполните форму для формирования заявки эксперту
+					<h2 class="form__title text-uppercase" v-if="!isMobile">Заполните -форму для формирования заявки эксперту
 					</h2>
 					<h2 class="form__title text-uppercase" v-else>Заполните форму для формирования заявки (3 шага)</h2>
 					<div class="form__body">

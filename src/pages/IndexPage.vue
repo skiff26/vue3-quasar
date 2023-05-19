@@ -1,10 +1,15 @@
 <template>
-	<nav class="header">
-		<div class="nav"><a href="#">Главная</a> / <a href="#">Профиль пользователя Иванов Степан </a></div>
-		<div class="nav-mobile"><a href="#">Главная</a> / <a href="#">Личный кабинет</a> / <a href="">Профиль
-				пользователя</a>
-		</div>
-	</nav>
+	<!-- Для меня -->
+	<!-- <q-breadcrumbs class="header grey-6" active-color="gray-6">
+		<q-breadcrumbs-el label="Главная" to="/" />
+		<q-breadcrumbs-el label="Личный кабинет" to="/" />
+		<q-breadcrumbs-el label="Профиль пользователя" to="/" />
+	</q-breadcrumbs> -->
+	<!-- Для других пользователей -->
+	<q-breadcrumbs class="header gray" active-color="gray">
+		<q-breadcrumbs-el label="Главная" to="/" />
+		<q-breadcrumbs-el label="Профиль пользователя Иванов Степан" to="/" />
+	</q-breadcrumbs>
 	<main class="main">
 		<TheProfileTitle />
 		<TheUser />

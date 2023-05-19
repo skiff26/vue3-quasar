@@ -1,9 +1,9 @@
 <template>
-	<main class="main">
+	<main class="you">
 		<div class="main__container">
-			<h1 class="main__title text-center text-uppercase">Ваш личный кабинет</h1>
-			<h2 class="main__from text-center">На сайте с: <time>22 мар. 2023 г</time></h2>
-			<div class="main__table table">
+			<h1 class="you__title text-center text-uppercase">Ваш личный кабинет</h1>
+			<h2 class="you__from text-center">На сайте с: <time>22 мар. 2023 г</time></h2>
+			<div class="you__table table">
 				<div class="table__item">
 					<h3 class="table__text">Подтверждение E-mail</h3>
 					<q-btn color="secondary" class="text-weight-bold" label="Подтвердить" />

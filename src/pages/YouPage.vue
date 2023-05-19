@@ -1,8 +1,8 @@
 <template>
-	<nav class="header">
-		<div class="nav"><a href="#">Главная</a> / <a href="#">Личный кабинет </a></div>
-		<div class="nav-mobile"><a href="#">Главная</a> / <a href="#">Личный кабинет</a></div>
-	</nav>
+	<q-breadcrumbs class="header gray" active-color="gray">
+		<q-breadcrumbs-el label="Главная" to="/" />
+		<q-breadcrumbs-el label="Личный кабинет" to="/" />
+	</q-breadcrumbs>
 	<TheYouMain />
 </template>
 <script setup>

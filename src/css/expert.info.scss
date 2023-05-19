@@ -1,0 +1,129 @@
+.expert-info {
+  &__title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+    @media (max-width: 878px) {
+      font-size: 26px;
+      margin-bottom: 30px;
+    }
+    @media (max-width: 540px) {
+      font-size: 18px;
+      line-height: 21px;
+      font-weight: 600;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__btns {
+    display: flex;
+    margin-top: 20px;
+    max-width: 560px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__doc {
+    width: 240px;
+    font-size: 16px;
+  }
+}
+.info {
+  &__container {
+    margin-top: 37px;
+    display: flex;
+    gap: 30px;
+    @media (max-width: 878px) {
+      gap: 20px;
+    }
+    @media (max-width: 768px) {
+      margin-top: 0;
+    }
+  }
+
+  &__image {
+    flex: 0 0 30%;
+    padding: 50px 45px;
+    max-width: 180px;
+    height: 200px;
+    background: #fafafa;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    @media (max-width: 878px) {
+      padding: 30px 25px;
+      height: min-content;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  &__text {
+    p {
+      font-size: 18px;
+      line-height: 100%;
+    }
+  }
+
+  &__additional-text {
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 100%;
+  }
+}
+
+.info {
+  &__block-mob {
+    margin-bottom: 20px;
+  }
+
+  &__block-body-mob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  &__block-text-mob {
+    flex: 0 0 50%;
+    font-size: 18px;
+    line-height: 100%;
+    color: #0c0c0c;
+  }
+
+  &__block-image-mob {
+    flex: 0 0 50%;
+    height: 120px;
+    max-width: 140px;
+    background: #fafafa;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding: 20px 30px;
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  &__block-btn {
+    text-align: center;
+  }
+}
+.expert-info {
+  &__doc {
+    @media (max-width: 540px) {
+      max-width: min-content;
+    }
+  }
+}

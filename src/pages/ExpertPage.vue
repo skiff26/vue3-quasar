@@ -1,10 +1,10 @@
 <template>
-	<nav class="header">
-		<div class="nav"><a href="#">Главная</a> / <a href="#">Услуги </a>/ <a href="#">Заказ экспертизы</a> / <a
-				href="#">Выбор эксперта </a></div>
-		<div class="nav-mobile"><a href="#">Главная</a> / <a href="#">Услуги </a>/ <a href="#">Заказ экспертизы</a> / <a
-				href="#">Выбор эксперта </a></div>
-	</nav>
+	<q-breadcrumbs class="header gray" active-color="gray">
+		<q-breadcrumbs-el label="Главная" to="/" />
+		<q-breadcrumbs-el label="Услуги" to="/" />
+		<q-breadcrumbs-el label="Заказ экспертизы" to="/" />
+		<q-breadcrumbs-el label="Выбор экспертизы" to="/" />
+	</q-breadcrumbs>
 	<main class="expert">
 		<div class="expert__container">
 			<h1 class="expert__title text-uppercase">Экспертная оценка животных</h1>

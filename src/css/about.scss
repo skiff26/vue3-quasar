@@ -1,4 +1,4 @@
-.main {
+.about {
   margin-bottom: 100px;
   @media (max-width: 470px) {
     margin-bottom: 0;
@@ -8,6 +8,12 @@
     font-size: 32px;
     line-height: 38px;
     margin-top: 0;
+    text-align: center;
+    @media (max-width: 470px) {
+      text-align: left;
+      font-size: 18px;
+      line-height: 21px;
+    }
   }
 
   &__description {
@@ -151,6 +157,9 @@
   gap: 30px;
   flex-wrap: wrap;
   margin-top: 60px;
+  @media (max-width: 1385px) {
+    gap: 20px;
+  }
   @media (max-width: 470px) {
     padding: 0px;
     background: none;

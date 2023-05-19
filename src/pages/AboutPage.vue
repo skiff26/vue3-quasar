@@ -1,12 +1,12 @@
 <template>
 	<AdBlock :ad="ad" />
-	<nav class="header">
-		<div class="nav"><a href="#">Главная</a> / <a href="#">О нас</a></div>
-		<div class="nav-mobile"><a href="#">Главная</a> / <a href="#">О нас</a></div>
-	</nav>
-	<main class="main">
-		<div class="main__container">
-			<h1 class="main__title text-center text-uppercase">TITLE</h1>
+	<q-breadcrumbs class="header gray" :style="{ 'paddingLeft': isSmall ? '0' : '75px' }" active-color="gray">
+		<q-breadcrumbs-el label="Главная" to="/" />
+		<q-breadcrumbs-el label="О нас" to="/" />
+	</q-breadcrumbs>
+	<main class="about">
+		<div class="about__container">
+			<h1 class="about__title text-uppercase">TITLE</h1>
 			<AboutDescription />
 			<TheAboutArticle :isSmall="isSmall" :isMobile="isMobile" />
 			<TheAboutAdvantage />
